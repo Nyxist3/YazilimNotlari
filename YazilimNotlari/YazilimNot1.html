@@ -1,0 +1,67 @@
+<!DOCTYPE html> <!-- Dosya türünün HTML olduğunu belirtir. -->
+<html lang="en">
+<!-- Dosya dilinin İngilizce olduğunu belirtir. Yazmayabilirsiniz, yazmazsanız ingilizce olarak kalır. Türkçe vb diller de yapabilirsiniz ama İngilizce kullanmanız önerilir.-->
+
+<head> <!-- Head sayfanın arka planıdır. Buradaki kodlar kullanıcı tarafından görüntülenmez (Title hariç) -->
+    <!-- Kullandığım yorum satırını kullanmak için tag açıp !-- koymanız yeterli.-->
+    <!-- Meta etiketleri sayfanın özellilklerini belirtir.-->
+    <meta charset="UTF-8">
+    <!-- Sayfanın Türkçe karakterleri desteklemesini sağlar. Şeyma yazdığınız zaman Ş'nin ? şeklinde çıkmaması için.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sitenin telefondaki görünümünü ayarlar. -->
+    <meta name="keywords" content="Yazılım Dersleri, Yazılım Mentörlüğü">
+    <!-- Arama motorunda arattığınızda sitenin yukarılara çıkması için anahtar kelimeler ekler. -->
+    <meta name="description" content="Haydarpaş Lisesinin yazılım mentörlüğünün yazılım dersleridir.">
+    <!-- Site aratıldığında siteyle alakalı küçük bir açıklama ekler. -->
+    <title>Yazılım Dersleri</title> <!-- Sayfanın sekme kısmındaki adıdır. -->
+</head>
+
+<!-- Kullanbileceğiniz birkaç kısayol:
+    ALT + SHIFT + F => Kodları düzenler.
+    CTRL + ALT + Aşağı/Yukarı ok tuşu => İmleci seçtiğiniz yöne doğru büyütür.
+    ALT + Aşağı/Yukarı ok tuşu => Satırı seçtiğiniz yöne taşır. 
+    CTRL + SHIFT + K => Satırı siler
+    CTRL + ENTER => Yeni satır oluşturur.
+    CTRL + D => Seçtiğiniz yazının aynısını kombinasyona her tıkladığınızda seçer (Bir kere yazarak bütün yazıları değiştirmek için kullanılabilir.).
+-->
+
+<body>
+
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <!-- Paragraf etiketi. Blok element olduğu için satırın tamamını kaplar. İçine yazılan yazıyı aynen çıkartır. -->
+
+    <h1>Lorem, ipsum dolor.</h1>
+    <h2>Lorem, ipsum dolor.</h2>
+    <h3>Lorem, ipsum dolor.</h3>
+    <h4>Lorem, ipsum dolor.</h4>
+    <h5>Lorem, ipsum dolor.</h5>
+    <h6>Lorem, ipsum dolor.</h6>
+    <!-- İçine yazılan yazıyı farklı kalınlıklarda çıkartır. En büyük h1 en küçük h6dır. -->
+
+    <strong>Lorem, ipsum.</strong> <!-- İçindeki yazıyı kalınlaştırır. -->
+    <hr> <!-- Satırın tamamını kaplayan bir çizgi koyar. -->
+    <b>Lorem.</b> <!-- İçindeki yazıyı kalınlaştırır. -->
+    <br> <!-- 1 satır boşluk bırakır. -->
+    <i>Lorem, ipsum dolor.</i> <!-- İçindeki yazıyı italik hale getirir. -->
+    <mark>Lorem ipsum dolor sit amet.</mark> <!-- İçindeki yazıyı sarı kalemle vurgular (Üstünü çizer.).-->
+
+
+    <img src="/resimler/mbappe.jpg" alt="Mbappe bulunamadı." width="400" height="400">
+    <!-- 
+    "img" tagı fotoğraf eklemek için kullanılır.
+    "alt" tagı resimde bir sorun çıktığında siteye içine yazdığınız çıktıyı verir. 
+    "src" kodunun içine isterseniz resmin adresini yazıp isterseniz de kodda gösterdiğim şekilde yazıp resmi ekleyebilirsiniz.
+    "width" ve "height" resmin boyutunu ayarlar.
+    Ayrıca "center" tagı kullanarak resmi ortalayabilirsiniz.
+    -->
+    <video width="500" height="400" controls>
+        <source src="/videolar/mbappegol.mp4" type="video/mp4">
+        <!--
+        "video" tagı video eklemek için kullanılır.
+        "width" ve "height" yukarıda bahsettiğimle aynı. 
+        "source" tagının içine kodda yazan gibi video ekleyebilirsiniz.
+        "type" tagı  videonun tipini belirtir.
+        -->
+    </video>
+</body>
+</html>
